@@ -48,7 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.middleware.csrf.CsrfResponseMiddleware',
+    #'django.middleware.csrf.CsrfResponseMiddleware',
 ]
 
 ROOT_URLCONF = 'dayeasy_yoon.urls'
