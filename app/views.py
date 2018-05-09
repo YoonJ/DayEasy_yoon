@@ -9,7 +9,7 @@ def keyboard(request):
         }
     )
 
-@crsf_exempt
+@csrf_exempt
 def message(request):
     return JsonResponse(
         {
